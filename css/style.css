@@ -124,11 +124,11 @@ body {
 }
 /*footer-list*/
 .footer-list {
-   font-style: normal;
    font-size: 14px;
    line-height: 1.7;
 }
 .footer-address {
+   font-style: normal;
    color: var(--white-color);   
 }
    /*hover-list-footer*/
