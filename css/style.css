@@ -97,7 +97,7 @@ body {
 /*hover-focus-contacts*/
 .contacts .item:hover,
 .contacts .item:focus{
-   color: var(--hover-color)
+   color: var(--hover-color);
 }
 
 
@@ -119,7 +119,7 @@ body {
    color: var(--logo1-color);
 }
 .footer-logo-color2 {
-   color: var(--logo2-color);
+   color: var(--white-color);
 }
 /*footer-list*/
 .footer-list {
@@ -136,7 +136,7 @@ body {
 }
 .footer-list .list:hover,
 .footer-list .list:focus{
-   color: var(--hover-color)
+   color: var(--hover-color);
 }
 /*Studio__________________________Studio*
 .page-main {
