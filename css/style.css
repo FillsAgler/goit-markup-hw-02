@@ -79,13 +79,12 @@ body {
 }
 
 /*hover-focus-nav*/
-.site-nav .li .a .link:hover,
-.site-nav .li .a .link:focus,
-.site-nav .li .a .link:active{
+.site-nav .link:hover,
+.site-nav .link:focus{
    color: var(--hover-color);
 }
 
-.site-nav .link:active{
+.site-nav .active{
    color: var(--hover-color);
 }
 /*Contacts*
