@@ -74,13 +74,19 @@ body {
 .site-nav { 
 }
 /*Site-nav*/
-.link {
+.link{
    color: var(--title-text-color);
 }
+
 /*hover-focus-nav*/
-.site-nav .link:hover,
-.site-nav .link:focus{
-   color: var(--hover-color)
+.site-nav .li .a .link:hover,
+.site-nav .li .a .link:focus,
+.site-nav .li .a .link:active{
+   color: var(--hover-color);
+}
+
+.site-nav .link:active{
+   color: var(--hover-color);
 }
 /*Contacts*
 .contacts {
@@ -118,6 +124,7 @@ body {
 }
 /*footer-list*/
 .footer-list {
+   font-style: normal;
    font-size: 14px;
    line-height: 1.7;
 }
@@ -126,7 +133,7 @@ body {
 }
    /*hover-list-footer*/
 .list{
-   color: var(--subtitle-text-color);
+   color:rgba(255, 255, 255, 0.6);
 }
 .footer-list .list:hover,
 .footer-list .list:focus{
@@ -257,7 +264,8 @@ body {
 }
 /*Hover-button*/
 .filter-list .button:hover,
-.filter-list .button:focus{
+.filter-list .button:focus,
+.filter-list .button:active{
   color: var(--white-color);
   background: var(--button-background-color);
   cursor: pointer;
